@@ -28,7 +28,7 @@ const main = async () => {
         ws: windScale
     } = await getWeather(province, city)
 
-    获取金山词霸每日一句
+    // 获取金山词霸每日一句
     const { content: noteEn, note: noteCh} = await getCIBA()
 
     // 获取每日一言
