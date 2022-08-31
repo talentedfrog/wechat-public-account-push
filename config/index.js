@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "7393fcd660bc3516eb4cd10deca5da7f",
 
     // 模板消息id
-    TEMPLATE_ID: "DnzGoJ2ZPbFO_O8g-NiOw3jC7XuYsR5OLGUt6wkkxmY",
+    TEMPLATE_ID: "LzqHZElR4BvJmsfUYeSW4OiTBePAgTPg-bWMBPoT9bY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "FrPbB5GWzOJ2LZkpZSE-sA6jeVw3m6rEpvwZRm-OsC0",
@@ -18,7 +18,7 @@ export const config = {
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
 
     USERS: [
-      {name: '自己', id: "oxBuO6b-6iMWh72_6Aq7N8YQlTDE"},
+      {name: '小号', id: "oxBuO6W8M4Jp-GfA3vh28LlVahQE"},
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -43,15 +43,15 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "01-01"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
+      {"type": "生日", "name": "宝贝", "year": "2000", "date": "08-30"},
+      {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
+      {"type": "生日", "name": "小周", "year": "2000", "date": "03-24"},
+      {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "09-20"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 1,
+    FESTIVALS_LIMIT: 2,
 
     /** 日期相关 */
 

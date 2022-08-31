@@ -27,14 +27,19 @@ const main = async () => {
         // 风力等级
         ws: windScale
     } = await getWeather(province, city)
+
     // 获取金山词霸每日一句
-    const { content: noteEn, note: noteCh} = await getCIBA()
+    // const { content: noteEn, note: noteCh} = await getCIBA()
+
     // 获取每日一言
-    const { hitokoto: oneTalk, from: talkFrom} = await getOneTalk(config.LITERARY_PREFERENCE)
+    // const { hitokoto: oneTalk, from: talkFrom} = await getOneTalk(config.LITERARY_PREFERENCE)
+
     // 获取在一起的日期差
     const loveDay = Math.ceil(dayjs().diff(dayjs(config.LOVE_DATE), 'day', true))
+
     // 获取结婚的日期差
-    const marryDay = Math.ceil(dayjs().diff(dayjs(config.MARRY_DATE), 'day', true))
+    // const marryDay = Math.ceil(dayjs().diff(dayjs(config.MARRY_DATE), 'day', true))
+
     // 获取生日信息
     const birthdayMessage = getBirthdayMessage()
 
@@ -51,12 +56,12 @@ const main = async () => {
         { name: toLowerLine('windDirection'), value: windDirection, color: getColor() },
         { name: toLowerLine('windScale'), value: windScale, color: getColor() },
         { name: toLowerLine('loveDay'), value: loveDay, color: getColor() },
-        { name: toLowerLine('marryDay'), value: marryDay, color: getColor() },
+        // { name: toLowerLine('marryDay'), value: marryDay, color: getColor() },
         { name: toLowerLine('birthdayMessage'), value: birthdayMessage, color: getColor() },
-        { name: toLowerLine('noteEn'), value: noteEn, color: getColor() },
-        { name: toLowerLine('noteCh'), value: noteCh, color: getColor() },
-        { name: toLowerLine('oneTalk'), value: oneTalk, color: getColor() },
-        { name: toLowerLine('talkFrom'), value: talkFrom, color: getColor() },
+        // { name: toLowerLine('noteEn'), value: noteEn, color: getColor() },
+        // { name: toLowerLine('noteCh'), value: noteCh, color: getColor() },
+        // { name: toLowerLine('oneTalk'), value: oneTalk, color: getColor() },
+        // { name: toLowerLine('talkFrom'), value: talkFrom, color: getColor() },
     ]
 
     // 公众号推送消息
