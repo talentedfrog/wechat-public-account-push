@@ -4,35 +4,25 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wx908a2e62eed43ffc",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "7393fcd660bc3516eb4cd10deca5da7f",
 
     // 模板消息id
-    TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    TEMPLATE_ID: "DnzGoJ2ZPbFO_O8g-NiOw3jC7XuYsR5OLGUt6wkkxmY",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    CALLBACK_TEMPLATE_ID: "FrPbB5GWzOJ2LZkpZSE-sA6jeVw3m6rEpvwZRm-OsC0",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-    // [{
-    //   name: "张三",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // },
-    // {
-    //   name: "李四",
-    //   id: "wxafasdasdd-zxfvsdfd"
-    // }]
+
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: '自己', id: "oxBuO6b-6iMWh72_6Aq7N8YQlTDE"},
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "oxBuO6b-6iMWh72_6Aq7N8YQlTDE"}, 
     ],
      
     /**
@@ -42,9 +32,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "江苏",
     // 所在城市
-    CITY: "惠州",
+    CITY: "南京",
 
     /** 重要节日相关 */
 
@@ -61,21 +51,21 @@ export const config = {
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 3,
+    FESTIVALS_LIMIT: 1,
 
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2015-05-01",
+    LOVE_DATE: "2021-09-20",
     // 结婚纪念日
-    MARRY_DATE: "2020-01-04",
+    // MARRY_DATE: "2020-01-04",
 
 
     /** 每日一言 */
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
+    // LITERARY_PREFERENCE: ""
 
 
     }
