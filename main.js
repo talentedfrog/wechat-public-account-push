@@ -28,8 +28,8 @@ const main = async () => {
         ws: windScale
     } = await getWeather(province, city)
 
-    // 获取金山词霸每日一句
-    // const { content: noteEn, note: noteCh} = await getCIBA()
+    获取金山词霸每日一句
+    const { content: noteEn, note: noteCh} = await getCIBA()
 
     // 获取每日一言
     // const { hitokoto: oneTalk, from: talkFrom} = await getOneTalk(config.LITERARY_PREFERENCE)
